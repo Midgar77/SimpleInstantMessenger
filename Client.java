@@ -149,9 +149,10 @@ public class Client extends JFrame{
 		
 		public static void main(String[] args) {
 			
-			//You must input your computer's IP address, do not use '1.1.1.1'
-			Client charlie = new Client("1.1.1.1");
-			charlie.startRunning();
+			//A JOptionPane asks you for your IP Address
+			String IPAddress = JOptionPane.showInputDialog("Enter the IP Address of the Client Program.", "IP Address"); 
+			Client client = new Client(IPAddress);
+			client.startRunning();
 			
 		}
 		
