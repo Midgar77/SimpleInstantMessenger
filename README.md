@@ -13,4 +13,4 @@ This is a basic "skeleton" of what I hope to create in the future. Right now, th
  
 NOTE:  It doesn't matter if you are using one computer or two different computers, you must run the Server first, and then run the Client so that the Client can connect to the server after the server is established. 
 
-Additionally, if you need to change the IP address being used with the Client based on what the IP address of your computer is.
+Additionally, if you need to change the IP address being used with the Client based on what the IP address of your computer is. The Client program initially asks the user to enter the IP Address before it tries to connect to ther server.
